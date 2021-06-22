@@ -96,13 +96,14 @@
             <input type="password" name="password" required placeholder="Password"   autocomplete="off" value="<?php echo $arraydata['password']?>">
             <select name="degree"  autocomplete="off" value="<?php echo $arraydata['degree']?>">
             <option value="course-type" selected>Course type</option>
-            <option value="short-courses">Short courses</option>
-            <option value="featured-courses">Featured courses</option>
-            <option value="undergraduate">Undergraduate</option>
-            <option value="diploma">Diploma</option>
-            <option value="certificate">Certificate</option>
-            <option value="masters-degree">Masters degree</option>
-            <option value="postgraduate">Postgraduate</option>
+            <option value="short-courses">Computer Science</option>
+            <option value="featured-courses">Information Science</option>
+            <option value="undergraduate">Mettalurgy</option>
+            <option value="diploma">Data Science</option>
+            <option value="certificate">Ruby on Rails</option>
+            <option value="masters-degree">App Development</option>
+            <option value="postgraduate">Android Development</option>
+            <option value="postgraduate">Full Stack Web Developer</option>
           </select>
         </div>
         <!-- <div class="checkbox">

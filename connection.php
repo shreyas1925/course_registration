@@ -3,7 +3,7 @@
 $username="root";
 $password="";
 $server="localhost";
-$db="[db_name]";
+$db="students_register";
 
 
 $con=mysqli_connect($server,$username,$password,$db);
